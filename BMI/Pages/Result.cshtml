@@ -1,0 +1,21 @@
+﻿@page
+@model BMI.ResultModel
+@{
+    ViewData["Title"] = "Result";
+}
+
+
+    <div class="text-center">
+        <h1>@Model.fname @Model.lname</h1>
+        <br />
+        Gender: @Model.gender
+        <br />
+        Age: @Model.age
+        <br />
+        Mail: @Model.mail
+        <br />
+
+        <h1>Your BMI is<br /> @Model.bmi</h1>
+    </div>
+
+
